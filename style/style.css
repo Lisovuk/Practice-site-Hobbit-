@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Ibarra+Real+Nova&family=Poppins&display=swap');
+
+:root {
+  --main-font-family:  'Ibarra Real Nova', serif;
+  --main-font-size: 1.1rem;
+  --main-font-color: rgb(254, 247, 247);
+  --main-color-link: gold;
+  --standart-margin: 2rem;
+  --standart-padding: .5rem;
+  --standart-height: 3rem;
+  --standart-widht: 3rem;
+}
+
+* {
+   padding: 0;
+   margin: 0;
+   box-sizing: border-box;
+}
+
+a {
+   text-decoration: none;
+}
+
+.container {
+   font-family: var(--main-font-family);
+}
+
+.header {
+   display: flex;
+   justify-content: space-around;
+   background-color: rgb(7, 7, 7);
+}
+.header__nav {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   margin: 1rem;
+}
+
+.header__link {
+   margin: var(--standart-margin);
+   font-size: var(--main-font-size);
+   color: var(--main-color-link);
+}
+
+.main {
+   height: 100vh;
+   background-image: url(https://static.wikia.nocookie.net/lotr/images/d/d8/%D0%A5%D0%BE%D0%B1%D0%B1%D0%B8%D1%82_%2811%29.jpg/revision/latest?cb=20200405012258&path-prefix=ru);
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+}
+
+.main__tatle {
+   position: relative;
+   top: 100%;
+   color: var(--main-font-color);
+   min-width: 80%;
+   text-align: center;
+   margin: 5rem;
+   position: absolute;
+   left: 5%;
+   font-size: 1.5rem;
+   color: gold;
+}
+  
+.footer {
+   background-color: rgb(5, 5, 5);
+   height: 100px;
+}
+
+
+ /* PART №1 №2 №3 */
+section {
+   position: absolute;
+   top: 20%;
+   left: 35%;
+   color: white;
+   width: 50%;  
+} 
+
+p {
+   font-family: var(--main-font-family);
+   font-size: var(--main-font-size);
+   text-align: center;
+   word-spacing: .2rem;
+}
+
+.text {
+   font-size: 1.1rem;
+}
+span > a:hover {
+   color: blue;
+}
+
+span > a {
+   color: white;
+   text-decoration: underline;
+}
+
+.visited:visited {
+   color: rgb(47, 0, 255);
+}
+
+ .main__films {
+   height: 100vh;
+   background-color: black;
+}
+
+.film__image-wrapper {
+   max-width: 70%;
+}
+
+.film__image {
+   width: 300px;
+   margin: var(--standart-margin);
+   box-shadow: 2px 3px ;
+   border-radius: 3rem;
+}
+
+.film__image:hover {
+  transform: scale(1.1);
+  box-shadow: 0 0 30px #ffffff;
+}
+
+.film__images {
+   max-width: 100%;
+   margin: var(--standart-margin);
+   display: flex;
+   justify-content: space-around;
+}
+
+.film__img {
+   width: 300px;
+   border-radius: 2rem;
+   box-shadow: 0 0 2px #ffffff;  
+}
+
+.film__links {
+   text-align: center;
+}
+
+.film__link {
+   color: var(--main-color-link);
+   font-size: var(--main-font-size);
+}
+
+.film__link:hover {
+   color: blue;
+}
