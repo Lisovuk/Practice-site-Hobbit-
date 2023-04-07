@@ -45,8 +45,7 @@ a {
 
 .main {
    height: 100vh;
-   background-image: url(https://static.wikia.nocookie.net/lotr/images/d/d8/%D0%A5%D0%BE%D0%B1%D0%B1%D0%B8%D1%82_%2811%29.jpg/revision/latest?cb=20200405012258&path-prefix=ru);
-   background-position: center;
+   background-image: url('../image/hyR7Fs6Tepgu3yCQGtgO4Ilz9tY.jpg');
    background-repeat: no-repeat;
    background-size: cover;
 }
